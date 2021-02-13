@@ -1,0 +1,30 @@
+{
+    "form": {
+        "make": "Hacer una transferencia",
+        "from": "Cuenta de retiro",
+        "toAccount": "Hacia cuenta",
+        "review": "Revise los datos de la transferencia y haga clic en Transferir para proceder a la operación",
+        "amount": "Monto",
+        "selectWhom": "Seleccione a quién desea transferir",
+        "submit": "ENVIAR",
+        "transfer":"Transferir",
+        "transactions": "Transactiones recientes",
+        "sweetSuccess":"Gracias, tu transferencia para",
+        "sweetSuccess2":"por",
+        "sweetSuccess3":"¡HA SIDO COMPLETADA CON ÉXITO!",
+        "sort": "Ordenar por",
+        "date":"FECHA",
+        "beneficiary": "BENEFICIARIO",
+        "amountFilter":"MONTO",
+        "search": "Buscar...",
+        "sweetWarning": "Lo sentimos, no tienes suficiente saldo para completar tu transferencia, Por favor revisa la cantidad e inténtalo de nuevo"
+
+        
+    },
+  "language": 
+  {
+      "spanish":"Español",
+      "english":"Inglés"
+  }
+   
+}

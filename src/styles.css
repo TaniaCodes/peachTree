@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('/assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/background.jpg);
+    background-size: cover;
+    background-position-y: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 600px) {
+    body{
+    background-position-y:center;
+    }
+}

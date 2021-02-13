@@ -1,0 +1,160 @@
+.navbar {
+    height: 80px;
+    border-bottom: 3px solid #EE7033;
+    background-color: #ffffff!important;
+}
+
+.logo{
+    width: 350px!important;
+    margin: auto 40px;
+}
+
+.rowContainer{
+    display: flex;    
+}
+
+.transactionForm{
+    margin-right: 20px;
+}
+
+.headerCards{
+    background-color: #0C8397;
+    height: 50px;
+    color:#ffffff;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px 15px;
+}
+
+.iconArrows{
+width: 50px;
+margin: auto;
+}
+
+form{
+    font-family: 'Kanit', sans-serif;
+}
+
+form input, form select, input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: lightgray;
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  input:focus {
+    border-color: #EE7033!important;
+  }
+  input:disabled{
+      background-color: transparent;
+  }
+
+  .form-footer{
+    text-align: right;
+  }
+
+  .button-submit{
+      background-color: #EE7033!important;
+      color: #ffffff;
+      width: 200px;
+      font-family: 'Kanit', sans-serif;
+      font-weight: 300;
+  }
+
+  /*Transactions container*/ 
+  
+  .iconBriefcase{
+      margin-top:5px;
+  }
+
+  .btn-outline-dark{
+      border-radius: 0px!important;
+  }
+
+  .transactionsContainer{
+      background-color: #ffffff;
+      height: 500px;
+     overflow-y: auto;
+  }
+
+  .filters{
+    display:flex;
+    justify-content: space-between;
+ }
+
+ .logoImg img{
+     width: 50px;
+ }
+
+ .iconClear{
+    position:absolute;
+    color: #757575;
+    font-size: 13px;
+    display: none;
+    border: none;
+    background-color: transparent;
+ }
+
+/*media queries*/
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        height: 100px;
+    }
+
+    .translation{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .logo{
+        width: 250px!important;
+        margin: auto;
+    }
+
+    .rowContainer{
+        display: block;    
+    }
+
+    .transactionForm{
+        margin-right:auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    .form-footer{
+        text-align: center;
+    }
+
+    .transactionsContainer{
+        margin-bottom: 15px;
+        height: auto;
+    }
+
+    .iconBriefcase{
+        margin-right: 15px;
+    }
+
+    .filters{
+       display:block;      
+    }
+
+    .search {
+        margin-bottom: 15px;
+    }
+    .sort{
+        display: block!important;
+    }
+
+    .titleSort{
+        margin-bottom:15px;
+        text-align: center;
+    }
+
+    .filtersButton{
+        margin-top:15px;
+        text-align: center;
+    }
+}

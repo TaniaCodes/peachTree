@@ -1,0 +1,30 @@
+{
+    "form": {
+        "make" : "Make a transfer",
+        "from": "From Account",
+        "toAccount": "To Account",
+        "review": "Review your transfer data and click Transfer to proceed with the operation",
+        "amount": "Amount",
+        "selectWhom": "Select to whom do yo want to transfer",
+        "submit": "SUBMIT",
+        "transfer": "TRANSFER",
+        "transactions": "Recent Transactions",
+        "sweetSuccess":"Thank you, your transference to",
+        "sweetSuccess2":"for",
+        "sweetSuccess3":"COMPLETED SUCCESFULLY!",
+        "sort": "Sort By",
+        "date": "DATE",
+        "beneficiary": "BENEFICIARY",
+        "amountFilter":"AMOUNT",
+        "search": "Search by typing...",
+        "sweetWarning": "Sorry you don´t have enough money to complete your transference, please review the amount and try again"
+
+       
+    },
+    "language": 
+    {   
+        "spanish":"Spanish",
+        "english":"English"
+    }
+     
+}
